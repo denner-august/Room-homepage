@@ -1,0 +1,96 @@
+@media screen and (max-width:414px){
+
+    .shadow{
+        box-shadow: 0px 91px 20px 200px rgba(0,0,0,0.46) inset;
+        -webkit-box-shadow: 0px 91px 20px 200px rgba(0,0,0,0.46) inset;
+        -moz-box-shadow: 0px 91px 20px 200px rgba(0,0,0,0.46) inset;
+    }
+
+    header{
+        flex-direction: column;
+        height: 60vh;
+        width: 100%;
+    }
+
+    header #logo{
+        width: 30vw;
+        height: 5vh;
+        text-align: center;
+        margin-left: 30%;
+       
+    }
+
+    #abertura-mobile{
+        display: initial;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    #abertura-mobile, #logo{
+        margin: 25px;
+    }
+
+    #close-mobile{
+        display: initial;
+        height: 30px;
+       
+    }
+
+    header #close-mobile, ul{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        transition:  0.1s;
+        
+    }
+
+    header ul{
+        width: 100%;
+        height: 15vh;
+        position: absolute;
+        background-color: white;
+        display: initial;
+        display: flex;
+        transform: translate3d(-100%);
+       
+      
+    }
+
+    header li, a{
+        font-size: 10px;
+        padding: 0px;
+        color: black;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+    }
+
+    header li:hover, a:hover{
+        color: black;
+        font-size: 14px;
+        transition:  0.2s;
+    }
+
+    #lado-a{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/mobile-image-hero-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    
+    }
+
+    #lado-b{
+        display: none;
+    }
+
+
+    footer{
+        display: none;
+    }
+}

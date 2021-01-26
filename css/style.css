@@ -1,0 +1,165 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Spartan', sans-serif;
+    
+}
+
+#abertura-mobile{
+    display: none;
+}
+
+#close-mobile{
+    display: none;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+#logo{
+    width: auto;
+    height: 30px;
+   
+}
+
+
+header ul, a{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+}
+
+header li{
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 5%;
+}
+
+header li:hover, a:hover{
+    color: black;
+    font-size: 25px;
+    transition:  0.2s;
+}
+
+#lado-a{
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    background-image: url(../images/desktop-image-hero-1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    background-color: black;
+}
+
+#lado-b{
+    height: 100%;
+    width: 40vw;;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    
+}
+
+#lado-b p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#paragrafo-lado-b{
+    width: 40vw;
+    display: inline-block;
+    padding: 0px 30px;
+    line-height: 30px;
+    
+}
+
+#arrow{
+    width: 30px;
+    height: 10%;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#compre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    align-self: center;
+    height: 100px;
+    cursor: pointer;
+}
+
+#buttons{
+    display: flex;
+    
+}
+#buttons img{
+    background-color: black;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#buttons img:active{
+    background-color: hsl(0, 0%, 27%);
+}
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 35vh;
+}
+
+container{
+   
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#image-1{
+    width: 30vw;
+   
+}
+
+#paragrafo{
+    width: 41vw;
+    padding: 20px 30px;
+    line-height: 30px;
+    font-size: 1.9vh;
+}
+
+#paragrafo p{
+    margin-top: 10px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#image-2{
+    width: 30%;
+}
