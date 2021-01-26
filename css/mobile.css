@@ -1,4 +1,7 @@
 @media screen and (max-width:414px){
+    body{
+       overflow-x: hidden;
+    }
 
     .shadow{
         box-shadow: 0px 91px 20px 200px rgba(0,0,0,0.46) inset;
@@ -8,7 +11,7 @@
 
     header{
         flex-direction: column;
-        height: 60vh;
+        height: 100vh;
         width: 100%;
     }
 
@@ -16,7 +19,7 @@
         width: 30vw;
         height: 5vh;
         text-align: center;
-        margin-left: 30%;
+        margin-left: 50px;
        
     }
 
@@ -75,22 +78,63 @@
     }
 
     #lado-a{
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 54vh;
     background-image: url(../images/mobile-image-hero-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0;
     
+    
+    }
+
+    #buttons_mobile{
+        display: flex;
+        align-items: flex-end;
+        cursor: pointer;
+    }
+
+    #buttons_mobile img:active{
+        background-color: hsl(0, 0%, 27%);
+    }
+
+    #buttons_mobile img{
+        background-color: black;
+        padding: 30px;
+        cursor: pointer;
+        
+    }
+
+    #lado-b #buttons{
+        display: none;
     }
 
     #lado-b{
-        display: none;
+        display: initial;
+        width: 100vw;
+        margin-top: 70px;
+    }
+
+    #paragrafo-lado-b {
+        width: 99vw;
     }
 
 
-    footer{
-        display: none;
+    container{
+        flex-direction: column;
     }
+
+    #image-1, #image-2{
+        width: 100vw;
+    }
+
+    #image-1{
+        margin-top: 30vh;
+    }
+    #paragrafo{
+        width: 100vw;
+        margin: 50px 0px;
+    }
+    
 }
