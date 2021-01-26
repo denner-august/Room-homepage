@@ -45,7 +45,7 @@ header ul, a{
     display: flex;
     flex-direction: row;
     color: white;
-    font-size: 20px;
+    
 }
 
 header li{
@@ -159,7 +159,7 @@ container{
 }
 
 #paragrafo p{
-    margin-top: 10px;
+    font-size: 12px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
