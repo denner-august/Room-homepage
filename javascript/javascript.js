@@ -15,5 +15,5 @@ document.getElementById('abertura-mobile').onclick = function(){
 document.getElementById('close-mobile').onclick = ()=>{
     nav_mobile.style ['transform'] = 'translateX(-100%)'
     header_fundo.classList.remove('shadow')
-    body.classList.add('shadow')
+    body.classList.remove('shadow')
 }
