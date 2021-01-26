@@ -1,6 +1,7 @@
 @media screen and (max-width:414px){
     body{
        overflow-x: hidden;
+       width: auto;
     }
 
     .shadow{
@@ -12,12 +13,12 @@
     header{
         flex-direction: column;
         height: 100vh;
-        width: 100%;
+        width: auto;
     }
 
     header #logo{
         width: 30vw;
-        height: 5vh;
+        height: 3vh;
         text-align: center;
         margin-left: 50px;
        
@@ -112,7 +113,7 @@
 
     #lado-b{
         display: initial;
-        width: 100vw;
+        width: auto;
         margin-top: 70px;
     }
 
@@ -133,7 +134,7 @@
         margin-top: 30vh;
     }
     #paragrafo{
-        width: 100vw;
+        width: auto;
         margin: 50px 0px;
     }
     
