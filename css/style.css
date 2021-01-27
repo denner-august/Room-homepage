@@ -73,7 +73,7 @@ header li:hover, a:hover{
     flex-direction: row;
     padding: 30px;
     background-image: url(../images/desktop-image-hero-1.jpg);
-    offset: cover;
+    background-size: cover;
     background-position: center;
     
 }
