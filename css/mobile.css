@@ -58,8 +58,6 @@
         display: initial;
         display: flex;
         transform: translateX(-100%);
-       
-      
     }
 
     header li, a{
@@ -84,32 +82,8 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 0;
-    
-    
     }
 
-    #buttons_mobile{
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        cursor: pointer;
-        width: 100%;
-    }
-
-    #buttons_mobile img:active{
-        background-color: hsl(0, 0%, 27%);
-    }
-
-    #buttons_mobile img{
-        background-color: black;
-        padding: 30px;
-        cursor: pointer;
-        
-    }
-
-    #lado-b #buttons{
-        display: none;
-    }
 
     #lado-b{
         display: initial;

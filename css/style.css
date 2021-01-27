@@ -7,6 +7,10 @@
     
 }
 
+#images{
+    display: none;
+}
+
 #abertura-mobile{
     display: none;
 }
@@ -45,6 +49,7 @@ header ul, a{
     display: flex;
     flex-direction: row;
     color: white;
+    transform: translateX(0%);
     
 }
 
@@ -69,11 +74,12 @@ header li:hover, a:hover{
     flex-direction: row;
     padding: 30px;
     background-image: url(../images/desktop-image-hero-1.jpg);
-    background-size: cover;
+    offset: cover;
     background-position: center;
-   
-    background-color: black;
+    
 }
+
+
 
 #lado-b{
     height: 100%;
@@ -119,19 +125,7 @@ header li:hover, a:hover{
     cursor: pointer;
 }
 
-#buttons{
-    display: flex;
-    
-}
-#buttons img{
-    background-color: black;
-    padding: 30px;
-    cursor: pointer;
-}
 
-#buttons img:active{
-    background-color: hsl(0, 0%, 27%);
-}
 
 footer{
     display: flex;
