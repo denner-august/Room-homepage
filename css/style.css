@@ -50,7 +50,6 @@ header ul, a{
     flex-direction: row;
     color: white;
     transform: translateX(0%);
-    
 }
 
 header li{
@@ -122,6 +121,16 @@ header li:hover, a:hover{
     align-items: baseline;
     align-self: center;
     height: 100px;
+    cursor: pointer;
+}
+
+#buttons{
+    display: flex;
+    
+}
+#buttons img{
+    background-color: black;
+    padding: 30px;
     cursor: pointer;
 }
 
